@@ -33,10 +33,10 @@ export default function EscolhaScreen({ navigation }) {
 const styles = StyleSheet.create({
   background: {
     flex: 1,
-    resizeMode: 'cover', // ou 'stretch' ou 'contain'
+    resizeMode: 'cover',
     justifyContent: 'center',
-    width: '100%', // Alteração para garantir que a imagem cubra completamente o fundo
-    height: '100%', // Alteração para garantir que a imagem cubra completamente o fundo
+    width: '100%',
+    height: '100%',
   },
   container: {
     flex: 1,
